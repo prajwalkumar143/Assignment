@@ -27,3 +27,8 @@ docker push your-dockerhub-username/flask-app
 
 1. HTTPS: Use Azure Application Gateway or Azure Front Door with SSL certificates to enable HTTPS.
 2. Secrets Management: Store sensitive data in Azure Key Vault and retrieve them in your application.
+
+## Monitoring and Alerting
+
+1. Prometheus: Set up Prometheus to scrape metrics from the application.
+2. Grafana: Create dashboards in Grafana to visualize the metrics.
